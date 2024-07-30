@@ -30,6 +30,14 @@ const Col2 = () => {
       </div>
 
       {/* Waktu PEmesanan */}
+      <div className="flex flex-col gap-2">
+        <h1 className="text-base font-semibold">Pilih Waktu Pemesanan</h1>
+        <h2 className="text-xs text-red-500 ">
+          Silahkan Pilih Lapangan Terlebih Dahulu
+        </h2>
+
+        <div></div>
+      </div>
     </div>
   );
 };
